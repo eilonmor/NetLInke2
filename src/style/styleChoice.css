@@ -1,0 +1,23 @@
+.site{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.site > *{padding: 25px;}
+img{
+    height: 64px;
+    width: 64px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit_button{
+    width: 80px;
+    height: 30px;
+    
+}
